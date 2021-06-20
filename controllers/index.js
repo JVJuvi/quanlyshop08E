@@ -5,7 +5,8 @@ var arrProduct = [
     {id:3,name:'iphone xs max',price: 1000,img: "https://tse4.explicit.bing.net/th?id=OIP.AW0bcbf64Hsx0gsCjNzfiwHaGJ&pid=Api&P=0&w=204&h=170"}
 ];
 
-function rendarProduct(){
+function rendarProduct() {
+    console.log('Dev B vừa mới sửa đoạn code này nha nha nha!');
     console.log('em mới vừa viết hàm này');
     var content = '';
     for (var i = 0 ; i < arrProduct.length; i++){
