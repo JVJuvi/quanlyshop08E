@@ -1,9 +1,9 @@
 console.log('hello');
 var arrProduct = [
-    {id:1,name:'iphone x',price: 1000,img: 'http://picsum.photo/id/1/200/200'},
-    {id:2,name:'iphone xs',price: 1000,img: 'http://picsum.photo/id/1/200/200'},
-    {id:3,name:'iphone xs max',price: 1000,img: 'http://picsum.photo/id/1/200/200'}
-]
+    {id:1,name:'iphone x',price: 1000,img: "https://tse4.explicit.bing.net/th?id=OIP.AW0bcbf64Hsx0gsCjNzfiwHaGJ&pid=Api&P=0&w=204&h=170"},
+    {id:2,name:'iphone xs',price: 1000,img: "https://tse4.explicit.bing.net/th?id=OIP.AW0bcbf64Hsx0gsCjNzfiwHaGJ&pid=Api&P=0&w=204&h=170"},
+    {id:3,name:'iphone xs max',price: 1000,img: "https://tse4.explicit.bing.net/th?id=OIP.AW0bcbf64Hsx0gsCjNzfiwHaGJ&pid=Api&P=0&w=204&h=170"}
+];
 
 function rendarProduct(){
     var content = '';
@@ -19,6 +19,8 @@ function rendarProduct(){
                 </div>
             </div>
         </div>
-        `
+        `;
     }
+    document.querySelector('#arrProduct').innerHTML = content;
 }
+rendarProduct();
